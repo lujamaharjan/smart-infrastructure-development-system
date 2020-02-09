@@ -1,0 +1,32 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+.row{
+    font-family:'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+.picintro img{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.picintro2 img{
+    width:100%;
+}
+.tagline{
+    position: relative;
+    margin-top:20px;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.tagline2{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#srow{
+    margin-top:150px;
+}
+

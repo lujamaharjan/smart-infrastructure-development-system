@@ -1,0 +1,19 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+.container-fluid{
+    font-family: 'Open Sans',sans-serif;
+}
+.lower{
+    background-color: black;
+}
+
+.col-md-3 p,h4{
+    margin-left:30px;
+}
+
+.col-md-3 p{
+    font-size: 13px;
+}
+.dgcol{
+    color:#8d8e8f;
+    font-size:12px;
+}

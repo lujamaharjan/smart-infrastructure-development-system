@@ -1,0 +1,23 @@
+<div class="jumbotron mt-5">
+    <div class="card mx-auto col-md-6">
+        <div class="card-head">
+            <h3 class="text-danger ml-4 mt-4"><i class="fa fa-user"></i> Login</h3>
+
+        </div>
+        <div class="card-body">
+            <form (submit)="onSubmit()" ngNativeValidate>
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" [(ngModel)]="email" placeholder="Email"
+                        required>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" [(ngModel)]="password"
+                        placeholder="password" required>
+                </div>
+                <button type="submit" class="btn btn-danger">Login</button>
+            </form>
+            <p class="mt-2 text-center"><a href="#"><small>forget password</small></a></p>
+        </div>
+
+    </div>
+</div>

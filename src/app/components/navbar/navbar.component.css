@@ -1,0 +1,16 @@
+.wrapper {
+    width:100%;
+    background-color: #e1bee7;
+}
+.logo{
+    width:160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flag{
+    width:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
